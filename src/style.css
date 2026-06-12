@@ -1,0 +1,22 @@
+@import "tailwindcss";
+.page-content {
+    padding: 20px;
+    margin-top: 80px; /* រុញទំព័រចុះក្រោម ដើម្បីកុំឱ្យបាំងជាមួយ Header */
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+/* 💡 លាក់របារ Scrollbar ទូទាំង Website ទាំងមូល */
+html, body {
+  overflow-x: hidden; /* ការពារការធ្លាយគែមឆ្វេងស្តាំ */
+}
+
+/* លាក់រូបរាងរបារអូសនៅលើ Chrome, Safari, Opera */
+::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+}
+
+/* លាក់នៅលើ Firefox */
+html {
+  scrollbar-width: none !important;
+}
