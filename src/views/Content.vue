@@ -14,7 +14,7 @@
       
       <section class="max-w-7xl w-full px-4">
         <h2 class="text-4xl md:text-6xl font-khmer text-yellow-200 mb-8 md:mb-12 tracking-wide drop-shadow-md">
-          វិចិត្រសាល
+          Gallery
         </h2>
         
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-6xl mx-auto">
@@ -51,7 +51,6 @@
 <script setup>
 import { ref } from 'vue';
 
-// គ្រប់គ្រងរូបភាពទាំង ៨ សន្លឹក
 const galleryImages = ref([
   { src: '/IMG_1.jpg', alt: 'រូបភាពទី ១' },
   { src: '/IMG_2.jpg', alt: 'រូបភាពទី ២' },
@@ -73,7 +72,6 @@ const galleryImages = ref([
 </script>
 
 <style scoped>
-/* របារ Scrollbar បែបទំនើប */
 .class-scroll::-webkit-scrollbar {
   width: 6px;
 }
